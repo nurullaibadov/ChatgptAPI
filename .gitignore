@@ -1,0 +1,32 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+
+## Migrations (optional - remove if you want to commit migrations)
+# src/Infrastructure/ChatGPTApp.Infrastructure/Migrations/
+
+## Secrets
+appsettings.Production.json
+**/appsettings.*.json
+!**/appsettings.json
+!**/appsettings.Development.json
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+## Rider / JetBrains
+.idea/
+
+## macOS
+.DS_Store
+
+## Test results
+TestResults/
+coverage/
